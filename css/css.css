@@ -34,10 +34,20 @@ a:link, a:visited, a:active {
 }
 
 .text-container > h1,
-.text-container > h2,
 .text-container > h3,
 .text-container > h4{
   text-align: center;  
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.text-container > h1{
+  font-size: 50px;
+}
+
+.text-container > h2{
+  font-size: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .text-container > h3{
@@ -60,14 +70,23 @@ a:link, a:visited, a:active {
 
 p {
   text-align: justify;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .autor{
   text-align: justify;
-  margin-left: 20%;
-  margin-right: 15%;
+  margin-left: 23%;
+  margin-right: 18%;
+}
+
+.autor p{
+  font-size: 14px;
+}
+
+p.descripcionAutor{
+  font-style: italic;
 }
 
 .autorIamgen > img {
@@ -157,7 +176,8 @@ p.nombreAutor{
 /* apps.html */
 h2.h2Left{
   text-align: left;  
-  margin-left: 13%;
+  margin-left: 18%;
+  font-size: 29px;
 }
 /* Fin apps.html */
 
