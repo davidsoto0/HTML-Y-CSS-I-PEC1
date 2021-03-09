@@ -210,4 +210,40 @@ h2.h2Left{
     font-size: 25px;
   }
 
+  .text-container > h1{
+    font-size: 25px;
+  }
+  
+  .text-container > h2{
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  h2.h2Left{
+    margin-left: 6%;
+  }
+
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .autor{
+    margin-left: 13%;
+    margin-right: 12%;
+  }
+  
+  .autor p{
+    font-size: 14px;
+  }
+
+  .imagenGrande{
+    width: 100%;
+  }
+
+  .recuadroDerecha p{
+    font-size: 18px;
+  }
+
 }
